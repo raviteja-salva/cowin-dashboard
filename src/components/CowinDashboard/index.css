@@ -1,0 +1,39 @@
+.container {
+  background-color: #161625;
+  padding: 40px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    background-color: #161625;
+    padding: 20px;
+    width: 100vw;
+  }
+}
+
+.loader-container {
+  background-color: #161625;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.website-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+.logo-heading {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.top-heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
